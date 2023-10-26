@@ -36,8 +36,8 @@
 	encoder: encoder {
 		compatible = "alps,ec11";
 		label = "ENCODER";
-		a-gpios = <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		steps = <48>;
 		//status = "disabled";
 	};
