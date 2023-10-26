@@ -22,35 +22,8 @@
  };
  
  / {
-      combos {
-             compatible = "zmk,combos";
-             combo_esc {
-                 timeout-ms = <50>;
-                 key-positions = <0 1>;
-                 bindings = <&kp ESC>;
-             };
-             combo_tvp {
-                 timeout-ms = <100>;
-                 key-positions = <1 2 3>;
-                 bindings = <&tog TVP1>;
-             };
-     };
- 
-     macros {
-         gif: gif {
-             label = "giphy";
-             compatible = "zmk,behavior-macro";
-             #binding-cells = <0>;
-             bindings
-                 = <&macro_press &kp LSHFT>
-                 , <&macro_tap &kp N2>
-                 , <&macro_release &kp LSHFT>
-                 , <&macro_tap &kp G &kp I &kp F>
-                 ;
-         };
-     };
- 
-         keymap {
+    
+     keymap {
                  compatible = "zmk,keymap";
  
  // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -70,7 +43,7 @@
  //
      &lt RED C_NEXT
      &lt ORG C_PP
-     &lt GRN C_PREV   
+     &lt GRN C_PREV
          >;
      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                  };
