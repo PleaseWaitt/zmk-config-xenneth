@@ -64,7 +64,7 @@
  //
   bindings = <
  //
-     &kp trans
+     &trans
      &bt BT_NXT
      &bt BT_SEL 0   
          >;
@@ -88,8 +88,8 @@
   bindings = <
  //
      &bt BT_CLR
-     &kp trans
-     &kp trans
+     &trans
+     &trans
          >;
      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                  };
@@ -110,9 +110,9 @@
  //
   bindings = <
  //
-     &kp trans
-     &kp trans
-     &kp trans
+     &trans
+     &trans
+     &trans
          >;
      sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
                  };
