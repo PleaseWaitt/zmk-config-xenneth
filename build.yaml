@@ -14,8 +14,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-   shield: xenneth
+    shield: xenneth
 #  - board: seeeduino_xiao_ble
-#   shield: xenneth rgbled_widget
-#  - board: seeeduino_xiao_ble
-#   shield: settings_reset
+#    shield: settings_reset
